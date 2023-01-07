@@ -9,7 +9,10 @@ environment:
 dependencies:
   collection: ^1.15.0
   meta: ^1.7.0
-  petitparser: ^5.1.0
+  petitparser: #^5.1.0
+    git:
+      url: https://github.com/flutter-painter/dart-petitparser
+
 dev_dependencies:
   args: ^2.3.0
   lints: ^2.0.0
